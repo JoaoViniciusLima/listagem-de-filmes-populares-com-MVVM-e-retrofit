@@ -1,4 +1,4 @@
-package com.example.movie_list
+package com.example.movie_list.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             if (networkState == "loading") {
                 binding.ProgressBar.visibility = View.VISIBLE
             } else {
-                binding.ProgressBar.visibility = View.GONE
+                binding.ProgressBar.visibility = View.INVISIBLE
                 if(networkState == "error"){
 
                     binding.ErrorMessage.visibility = View.VISIBLE

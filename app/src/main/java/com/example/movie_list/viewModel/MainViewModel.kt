@@ -4,6 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.movie_list.domain.MovieResponse
 import com.example.movie_list.repositores.MainRepository
+import kotlinx.coroutines.delay
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -20,7 +21,8 @@ class MainViewModel constructor(private val repository: MainRepository) : ViewMo
         request.enqueue(object : Callback<MovieResponse>{
 
             override fun onResponse(call: Call<MovieResponse>, response: Response<MovieResponse>) {
-                networkState.postValue("")
+
+                networkState.postValue("success")
                 popularMovies.postValue(response.body())
             }
 

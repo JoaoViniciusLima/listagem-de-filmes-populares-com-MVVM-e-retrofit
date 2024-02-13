@@ -11,7 +11,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.movie_list.domain.Movie
 import com.bumptech.glide.Glide
-import com.example.movie_list.MovieDetailsActivity
+import com.example.movie_list.ui.MovieDetailsActivity
 import com.example.movie_list.R
 
 class MovieAdapter(private val context: Context) :
