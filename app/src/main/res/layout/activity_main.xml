@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     android:orientation="vertical"
     android:fillViewport="true"
     tools:context=".ui.MainActivity"
@@ -25,12 +26,12 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-
-
     <ProgressBar
         android:layout_gravity="center"
         android:id="@+id/ProgressBar"
         android:layout_width="match_parent"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/white"
         android:layout_height="48dp"
         android:visibility="gone"/>
 
