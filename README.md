@@ -24,11 +24,9 @@ Foi utilizado padrão de arquitetura MVVM com LiveData e repository
 O aplicativo utiliza a api do The Movie Database
 
 ## Screenshots
-<img src="https://github.com/JoaoViniciusLima/listagem-de-filmes-populares-com-MVVM-e-retrofit/assets/87715417/ebd1220b-2d36-46b4-bbb7-296a280b135c" alt="detalhes" width="350"/>
-<img src="https://github.com/JoaoViniciusLima/listagem-de-filmes-populares-com-MVVM-e-retrofit/assets/87715417/c9520a1a-2c43-4268-831a-729aea22371f" alt="listagem" width="350"/>
+<img src="https://github.com/JoaoViniciusLima/listagem-de-filmes-populares-com-MVVM-e-retrofit/assets/87715417/e24019fc-7bdd-47e5-ab82-a41337924498" alt="detalhes" width="350"/>
+<img src="https://github.com/JoaoViniciusLima/listagem-de-filmes-populares-com-MVVM-e-retrofit/assets/87715417/8631d042-02a9-46d2-ae57-4082dfe5aa0c" alt="listagem" width="350"/>
 
-
-https://github.com/JoaoViniciusLima/listagem-de-filmes-populares-com-MVVM-e-retrofit/assets/87715417/6c8cb50d-35df-4b2d-9fd7-f84cc2703f71
-
+https://github.com/JoaoViniciusLima/listagem-de-filmes-populares-com-MVVM-e-retrofit/assets/87715417/855556c9-5b7d-4bc0-9264-1157d21bf81e
 
 
